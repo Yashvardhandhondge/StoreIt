@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# StoreIt
+
+**StoreIt** is a secure file management application that allows you to log in with a verified email and OTP, store your files, view them, and download them anytime.
+
+## Features
+- **Secure Authentication**: Log in with your email and receive a one-time password (OTP) for access.
+- **File Management**: Upload, view, and download files easily.
+- **User-Friendly Interface**: Clean and intuitive design for a seamless user experience.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project on your local machine:
 
+### Prerequisites
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yashvardhandhondge/StoreIt.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd StoreIt
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Set up the environment variables. Create a `.env` file in the root directory and add the following keys:
+   ```env
+   NEXT_PUBLIC_APPWRITE_PROJECT=
+   NEXT_PUBLIC_APPWRITE_DATABASE=
+   NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=
+   NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=
+   NEXT_PUBLIC_APPWRITE_BUCKET=
+   NEXT_PUBLIC_APPWRITE_ENDPOINT=
+   NEXT_APPWRITE_KEY=
+   ```
+
+### Running the Application
+
+Once you have set up the `.env` file, run the application locally:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Sign-Up Page
+![Signup Page](./path/to/screenshot-signup.png)
 
-## Learn More
+### Home Page
+![Home Page](./path/to/screenshot-home.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
+- **Frontend**: Next.js
+- **Backend**: Appwrite
+- **Styling**: Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
