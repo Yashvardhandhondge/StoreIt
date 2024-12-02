@@ -57,10 +57,14 @@ The application will be available at `http://localhost:3000`.
 ## Screenshots
 
 ### Sign-Up Page
-![Signup Page](./path/to/screenshot-signup.png)
+![Screenshot 2024-12-02 171148](https://github.com/user-attachments/assets/ab193aa4-7d02-4383-92d4-a268554f8f8a)
+
+
 
 ### Home Page
-![Home Page](./path/to/screenshot-home.png)
+![Screenshot 2024-12-02 171045](https://github.com/user-attachments/assets/ca9315c1-10a9-4b4c-b388-d65fadd30182)
+
+
 
 ## Technologies Used
 - **Frontend**: Next.js
